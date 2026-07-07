@@ -2,6 +2,16 @@
 
 Welcome to the OctoAcme project management knowledge hub. This folder contains the definitive guides for how we run projects at OctoAcme—from initial conception through retrospective and continuous improvement.
 
+## Overview of OctoAcme Project Management Processes
+
+OctoAcme follows a structured, lifecycle-based approach to project management that emphasizes customer value, iterative delivery, clear ownership, and data-informed decision-making. Our five-phase lifecycle—**Initiation, Planning, Execution, Release, and Close & Retrospective**—ensures disciplined planning while maintaining team agility.
+
+**Communication and risk management** are woven into our DNA through a structured cadence (daily standups, weekly syncs, monthly stakeholder updates) and a transparent three-level escalation model (team triage → PM escalation → sponsor-level escalation). We maintain a Risk Register to actively track and mitigate blockers, and use a single source of truth—the project repository—to keep all stakeholders informed and reduce miscommunication.
+
+**Quality assurance is embedded throughout execution and release**. We mandate unit tests for new logic, integration tests where applicable, end-to-end smoke tests for critical flows, and security scanning in CI/CD pipelines. Pull requests follow strict conventions (≤400 lines, include issue links and acceptance criteria, require at least one approval), and all code must pass automated tests before review. Before any release, we verify acceptance criteria, run CI/CD pipelines, document rollback plans, and confirm staging smoke tests—reducing production risk and enabling confident deployments.
+
+**Continuous learning drives improvement**. Structured retrospectives held after each sprint, release, or milestone capture learnings and generate actionable items with clear owners and due dates. By measuring impact and celebrating incremental improvements, we foster psychological safety and a culture where feedback drives sustainable process enhancements. This holistic approach—combining disciplined planning, clear communication, quality-first execution, and reflective learning—positions OctoAcme to scale projects consistently while maintaining team agility and stakeholder confidence.
+
 ## Quick Start
 
 If you're new to OctoAcme's processes, start here:
